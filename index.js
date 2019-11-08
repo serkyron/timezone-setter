@@ -19,5 +19,4 @@ module.exports.setTimezone = function(timezone) {
 			resolve();
 		});
 	});
-}
-
+};
