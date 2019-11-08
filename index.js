@@ -11,7 +11,7 @@ module.exports.setTimezone = function(timezone) {
 			reject(new Error("Invalid timezone"));
 		}
 
-		execFile(`./bin/win32/timezone.exe`, [timezone], {windowsHide: true}, (error, stdout, stderr) => {
+		execFile(`./node_modules/timezone-setter/bin/win32/timezone.exe`, [timezone], {windowsHide: true}, (error, stdout, stderr) => {
 			if (error) {
 				reject(error);
 			}
