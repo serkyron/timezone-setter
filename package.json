@@ -1,0 +1,25 @@
+{
+  "name": "timezone-setter",
+  "version": "1.0.0",
+  "description": "Use this package to change system timezone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serkyron/timezone-setter.git"
+  },
+  "keywords": [
+    "timezone",
+    "windows",
+    "set",
+    "change"
+  ],
+  "author": "serkyron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serkyron/timezone-setter/issues"
+  },
+  "homepage": "https://github.com/serkyron/timezone-setter#readme"
+}
