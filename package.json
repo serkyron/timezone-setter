@@ -1,6 +1,6 @@
 {
   "name": "timezone-setter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use this package to change system timezone",
   "main": "index.js",
   "scripts": {
